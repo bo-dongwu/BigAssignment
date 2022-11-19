@@ -9,6 +9,7 @@
         <module name="student-service" />
         <module name="zuul" />
         <module name="eureka-server" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BigAssignment" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="student-service" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
