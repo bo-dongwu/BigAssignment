@@ -1,0 +1,17 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: zuul
+zuul:
+  routes:
+    student_route1:
+      path: /**
+      url: http://localhost:9080
+      service-id: student-service
+      strip-prefix: false
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9099/eureka
