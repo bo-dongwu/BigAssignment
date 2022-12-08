@@ -11,7 +11,7 @@
     <modules>
         <module>eureka</module>
         <module>student-service</module>
-        <module>zuul</module>
+        <module>gateway</module>
     </modules>
 
     <properties>
